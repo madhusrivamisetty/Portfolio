@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+         ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color:navy;
+            overflow: auto;
+        }
+
+        li.navitem {
+            float: left;
+        }
+
+        li.navitem a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        
+        * {
+                box-sizing:border-box ;
+            
+        }
+        .img-container{
+            float:left;
+            width:14.08%;
+            padding:40px;
+        }
+        .clearfix::after{
+            content:"";
+            clear:both;
+            display:none;
+        }
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .course {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .course img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body  style= "background-color:black">
+    <ul class="navbar">
+        <li class="navitem"><a href="home.html" target="_self">HOME</a></li>
+        <li class="navitem"><a href="about.html" target="_self">ABOUT</a></li>
+        <li class="navitem"><a href="skills.html">SKILLS</a></li>
+        <li class="navitem"><a href="contact.html">CONTACT</a></li>
+        
+    </ul>
+    <h1>MY SKILLS</h1>
+
+    <div class="course">
+        <h2><blockquote>BASICS OF PYTHON</blockquote> </h2>
+        <img src="static\basics of python.jpeg" alt="Certificate for Course Name 1">
+    </div>
+
+    <div class="course">
+        <h2><blockquote>INTRO TO PYTHON  </blockquote></h2>
+        <img src="static\intro to py.jpeg" alt="Certificate for Course Name 2">
+    </div>
+
+    <div class="course">
+        <h2><blockquote>HTML5</blockquote></h2>
+        <img src="static\html.jpeg" alt="Certificate for Course Name 3">
+    </div>
+   
+    <div class="course">
+        <h2><blockquote>CSS</blockquote></h2>
+        <img src="static\Html&css.jpeg" alt="Certificate for Course Name 3">
+    </div>
+
+    
+
+    
+</body>
+</html>
